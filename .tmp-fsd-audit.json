@@ -1,0 +1,274 @@
+﻿[
+    {
+        "file":  "node_modules\\@eslint\\eslintrc\\lib\\shared\\config-validator.js",
+        "line":  19,
+        "sourceLayer":  "shared",
+        "importPath":  "./config-ops.js",
+        "destLayer":  "shared",
+        "status":  "mismo-nivel"
+    },
+    {
+        "file":  "node_modules\\@eslint\\eslintrc\\lib\\shared\\config-validator.js",
+        "line":  20,
+        "sourceLayer":  "shared",
+        "importPath":  "./deprecation-warnings.js",
+        "destLayer":  "shared",
+        "status":  "mismo-nivel"
+    },
+    {
+        "file":  "node_modules\\@eslint\\eslintrc\\lib\\shared\\config-validator.js",
+        "line":  21,
+        "sourceLayer":  "shared",
+        "importPath":  "./ajv.js",
+        "destLayer":  "shared",
+        "status":  "mismo-nivel"
+    },
+    {
+        "file":  "node_modules\\@eslint\\eslintrc\\lib\\shared\\config-validator.js",
+        "line":  22,
+        "sourceLayer":  "shared",
+        "importPath":  "./deep-merge-arrays.js",
+        "destLayer":  "shared",
+        "status":  "mismo-nivel"
+    },
+    {
+        "file":  "node_modules\\@eslint\\eslintrc\\lib\\shared\\config-validator.js",
+        "line":  23,
+        "sourceLayer":  "shared",
+        "importPath":  "../../conf/config-schema.js",
+        "destLayer":  "shared",
+        "status":  "mismo-nivel"
+    },
+    {
+        "file":  "node_modules\\@eslint\\eslintrc\\lib\\shared\\config-validator.js",
+        "line":  24,
+        "sourceLayer":  "shared",
+        "importPath":  "../../conf/environments.js",
+        "destLayer":  "shared",
+        "status":  "mismo-nivel"
+    },
+    {
+        "file":  "node_modules\\@expo\\metro\\metro\\shared\\output\\RamBundle\\as-assets.d.ts",
+        "line":  12,
+        "sourceLayer":  "shared",
+        "importPath":  "../../../DeltaBundler/Serializers/getRamBundleInfo",
+        "destLayer":  "shared",
+        "status":  "mismo-nivel"
+    },
+    {
+        "file":  "node_modules\\@expo\\metro\\metro\\shared\\output\\RamBundle\\as-assets.d.ts",
+        "line":  13,
+        "sourceLayer":  "shared",
+        "importPath":  "../../types",
+        "destLayer":  "shared",
+        "status":  "mismo-nivel"
+    },
+    {
+        "file":  "node_modules\\@expo\\metro\\metro\\shared\\output\\RamBundle\\as-indexed-file.d.ts",
+        "line":  12,
+        "sourceLayer":  "shared",
+        "importPath":  "../../../DeltaBundler/Serializers/getRamBundleInfo",
+        "destLayer":  "shared",
+        "status":  "mismo-nivel"
+    },
+    {
+        "file":  "node_modules\\@expo\\metro\\metro\\shared\\output\\RamBundle\\as-indexed-file.d.ts",
+        "line":  13,
+        "sourceLayer":  "shared",
+        "importPath":  "../../types",
+        "destLayer":  "shared",
+        "status":  "mismo-nivel"
+    },
+    {
+        "file":  "node_modules\\@expo\\metro\\metro\\shared\\output\\RamBundle\\buildSourcemapWithMetadata.d.ts",
+        "line":  12,
+        "sourceLayer":  "shared",
+        "importPath":  "../../types",
+        "destLayer":  "shared",
+        "status":  "mismo-nivel"
+    },
+    {
+        "file":  "node_modules\\@expo\\metro\\metro\\shared\\output\\RamBundle\\buildSourcemapWithMetadata.d.ts",
+        "line":  13,
+        "sourceLayer":  "shared",
+        "importPath":  "../../../../metro-source-map",
+        "destLayer":  "shared",
+        "status":  "mismo-nivel"
+    },
+    {
+        "file":  "node_modules\\@expo\\metro\\metro\\shared\\output\\RamBundle\\util.d.ts",
+        "line":  12,
+        "sourceLayer":  "shared",
+        "importPath":  "../../types",
+        "destLayer":  "shared",
+        "status":  "mismo-nivel"
+    },
+    {
+        "file":  "node_modules\\@expo\\metro\\metro\\shared\\output\\RamBundle\\util.d.ts",
+        "line":  13,
+        "sourceLayer":  "shared",
+        "importPath":  "../../../../metro-source-map",
+        "destLayer":  "shared",
+        "status":  "mismo-nivel"
+    },
+    {
+        "file":  "node_modules\\@expo\\metro\\metro\\shared\\output\\RamBundle\\util.d.ts",
+        "line":  14,
+        "sourceLayer":  "shared",
+        "importPath":  "../../../lib/countLines",
+        "destLayer":  "shared",
+        "status":  "mismo-nivel"
+    },
+    {
+        "file":  "node_modules\\@expo\\metro\\metro\\shared\\output\\bundle.d.ts",
+        "line":  1,
+        "sourceLayer":  "shared",
+        "importPath":  "./bundle.flow",
+        "destLayer":  "shared",
+        "status":  "mismo-nivel"
+    },
+    {
+        "file":  "node_modules\\@expo\\metro\\metro\\shared\\output\\bundle.flow.d.ts",
+        "line":  12,
+        "sourceLayer":  "shared",
+        "importPath":  "../../Assets",
+        "destLayer":  "shared",
+        "status":  "mismo-nivel"
+    },
+    {
+        "file":  "node_modules\\@expo\\metro\\metro\\shared\\output\\bundle.flow.d.ts",
+        "line":  13,
+        "sourceLayer":  "shared",
+        "importPath":  "../types",
+        "destLayer":  "shared",
+        "status":  "mismo-nivel"
+    },
+    {
+        "file":  "node_modules\\@expo\\metro\\metro\\shared\\output\\bundle.flow.d.ts",
+        "line":  14,
+        "sourceLayer":  "shared",
+        "importPath":  "../../Server",
+        "destLayer":  "shared",
+        "status":  "mismo-nivel"
+    },
+    {
+        "file":  "node_modules\\@expo\\metro\\metro\\shared\\output\\RamBundle.d.ts",
+        "line":  12,
+        "sourceLayer":  "shared",
+        "importPath":  "../../DeltaBundler/Serializers/getRamBundleInfo",
+        "destLayer":  "shared",
+        "status":  "mismo-nivel"
+    },
+    {
+        "file":  "node_modules\\@expo\\metro\\metro\\shared\\output\\RamBundle.d.ts",
+        "line":  13,
+        "sourceLayer":  "shared",
+        "importPath":  "../types",
+        "destLayer":  "shared",
+        "status":  "mismo-nivel"
+    },
+    {
+        "file":  "node_modules\\@expo\\metro\\metro\\shared\\output\\RamBundle.d.ts",
+        "line":  14,
+        "sourceLayer":  "shared",
+        "importPath":  "../../Server",
+        "destLayer":  "shared",
+        "status":  "mismo-nivel"
+    },
+    {
+        "file":  "node_modules\\@expo\\metro\\metro\\shared\\output\\unbundle.d.ts",
+        "line":  1,
+        "sourceLayer":  "shared",
+        "importPath":  "./RamBundle",
+        "destLayer":  "shared",
+        "status":  "mismo-nivel"
+    },
+    {
+        "file":  "node_modules\\@expo\\metro\\metro\\shared\\types.d.ts",
+        "line":  12,
+        "sourceLayer":  "shared",
+        "importPath":  "../DeltaBundler/types",
+        "destLayer":  "shared",
+        "status":  "mismo-nivel"
+    },
+    {
+        "file":  "node_modules\\@expo\\metro\\metro\\shared\\types.d.ts",
+        "line":  13,
+        "sourceLayer":  "shared",
+        "importPath":  "../../metro-babel-transformer",
+        "destLayer":  "shared",
+        "status":  "mismo-nivel"
+    },
+    {
+        "file":  "node_modules\\@expo\\metro\\metro\\shared\\types.d.ts",
+        "line":  14,
+        "sourceLayer":  "shared",
+        "importPath":  "../../metro-resolver",
+        "destLayer":  "shared",
+        "status":  "mismo-nivel"
+    },
+    {
+        "file":  "node_modules\\@expo\\metro\\metro\\shared\\types.d.ts",
+        "line":  15,
+        "sourceLayer":  "shared",
+        "importPath":  "../../metro-source-map",
+        "destLayer":  "shared",
+        "status":  "mismo-nivel"
+    },
+    {
+        "file":  "node_modules\\@expo\\metro\\metro\\shared\\types.d.ts",
+        "line":  16,
+        "sourceLayer":  "shared",
+        "importPath":  "../../metro-transform-worker",
+        "destLayer":  "shared",
+        "status":  "mismo-nivel"
+    },
+    {
+        "file":  "node_modules\\metro\\src\\shared\\output\\bundle.d.ts",
+        "line":  11,
+        "sourceLayer":  "shared",
+        "importPath":  "../../Asset",
+        "destLayer":  "shared",
+        "status":  "mismo-nivel"
+    },
+    {
+        "file":  "node_modules\\metro\\src\\shared\\output\\bundle.d.ts",
+        "line":  13,
+        "sourceLayer":  "shared",
+        "importPath":  "../../Server",
+        "destLayer":  "shared",
+        "status":  "mismo-nivel"
+    },
+    {
+        "file":  "node_modules\\metro\\src\\shared\\output\\bundle.d.ts",
+        "line":  14,
+        "sourceLayer":  "shared",
+        "importPath":  "../../shared/types",
+        "destLayer":  "shared",
+        "status":  "mismo-nivel"
+    },
+    {
+        "file":  "node_modules\\metro\\src\\shared\\types.d.ts",
+        "line":  14,
+        "sourceLayer":  "shared",
+        "importPath":  "../DeltaBundler/types",
+        "destLayer":  "shared",
+        "status":  "mismo-nivel"
+    },
+    {
+        "file":  "src\\entities\\proyecto-tesis\\api\\proyectoApi.ts",
+        "line":  3,
+        "sourceLayer":  "entities",
+        "importPath":  "../model/types",
+        "destLayer":  "entities",
+        "status":  "mismo-nivel"
+    },
+    {
+        "file":  "src\\features\\registro-proyecto\\ui\\RegistroProyectoForm.tsx",
+        "line":  11,
+        "sourceLayer":  "features",
+        "importPath":  "../api/createProyecto",
+        "destLayer":  "features",
+        "status":  "mismo-nivel"
+    }
+]
