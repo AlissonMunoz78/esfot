@@ -77,7 +77,7 @@ export function ProyectoCard({
   };
 
   return (
-    // Animacion de entrada en tarjetas (OBLIGATORIA del deber)
+    // Animacion de entrada en tarjetas efecto escalonado
     <Animated.View
       entering={FadeInLeft.delay(index * 80).duration(400).springify()}
       style={[styles.tarjetaContenedor, cardStyle]}
