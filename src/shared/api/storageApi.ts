@@ -1,37 +1,51 @@
+import * as FileSystem from 'expo-file-system/legacy';
 import { supabase } from './supabase';
 
 const BUCKET = 'documentos-tesis';
 
 export const storageApi = {
-  /**
-   * Sube un archivo PDF a Supabase Storage y devuelve la URL pública.
-   * @param uri  URI local del archivo (file://)
-   * @param fileName Nombre con el que se guardará
-   */
   async uploadPdf(uri: string, fileName: string): Promise<string> {
-    // Leer el archivo como blob
-    const response = await fetch(uri);
-    const blob = await response.blob();
+    try {
+      const fileInfo = await FileSystem.getInfoAsync(uri);
 
-    const path = `proyectos/${Date.now()}_${fileName}`;
+      if (!fileInfo.exists) {
+        throw new Error('Archivo no encontrado');
+      }
 
-    const { error } = await supabase.storage
-      .from(BUCKET)
-      .upload(path, blob, { contentType: 'application/pdf', upsert: false });
+      // leer como base64
+      const base64 = await FileSystem.readAsStringAsync(uri, {
+        encoding: 'base64',
+      });
 
-    if (error) throw new Error(error.message);
+      // convertir a blob manualmente
+      const byteCharacters = atob(base64);
+      const byteNumbers = new Array(byteCharacters.length);
 
-    const { data } = supabase.storage.from(BUCKET).getPublicUrl(path);
-    return data.publicUrl;
-  },
+      for (let i = 0; i < byteCharacters.length; i++) {
+        byteNumbers[i] = byteCharacters.charCodeAt(i);
+      }
 
-  /** Elimina un archivo por su URL pública */
-  async deletePdf(publicUrl: string): Promise<void> {
-    const url = new URL(publicUrl);
-    // La ruta en el bucket empieza después de /object/public/<bucket>/
-    const parts = url.pathname.split(`/${BUCKET}/`);
-    if (parts.length < 2) return;
-    const path = parts[1];
-    await supabase.storage.from(BUCKET).remove([path]);
+      const byteArray = new Uint8Array(byteNumbers);
+
+      const path = `proyectos/${Date.now()}_${fileName}`;
+
+      const { error } = await supabase.storage
+        .from(BUCKET)
+        .upload(path, byteArray, {
+          contentType: 'application/pdf',
+        });
+
+      if (error) throw error;
+
+      const { data } = supabase.storage
+        .from(BUCKET)
+        .getPublicUrl(path);
+
+      return data.publicUrl;
+
+    } catch (err) {
+      console.log('UPLOAD ERROR:', err);
+      throw err;
+    }
   },
 };

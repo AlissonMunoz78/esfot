@@ -240,9 +240,15 @@ export function RegistroProyectoForm({
           onSuccess?.();
         },
       }]);
-    } catch (error) {
-      Alert.alert('Error', 'No se pudo guardar el proyecto. Verifica tu conexión.');
-    } finally {
+    } catch (error: any) {
+  console.log("🔥 ERROR COMPLETO:", JSON.stringify(error, null, 2));
+  console.log("🔥 ERROR DIRECTO:", error);
+
+  Alert.alert(
+    'Error DEBUG',
+    JSON.stringify(error?.response?.data || error?.message || error, null, 2)
+  );
+} finally {
       setCargando(false);
     }
   });
